@@ -1,0 +1,331 @@
+
+/* Estilos Gerais */
+
+body {
+  font-family: Austin, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Austin, "", serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  border: 3px solid black;
+  padding: 10px 30px;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  transition: all .5s ease;
+  margin: 40px;
+  background: #e8d49b;
+  border-color: #e8d49b;
+  margin: 4px;
+
+
+}
+
+.btn:hover {
+  color: white;
+  border-color: white;
+}
+
+.btn .btn-preto:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.subtitulo {
+  font-size: 24px;
+  line-height: 30px;
+  
+  letter-spacing: .1em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+.subtitulo:after {
+ 
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #6699ff;
+  margin: 8px auto;
+}
+
+
+/*scroll effect*/
+.navbar-trans {
+  background-color: transparent;
+  border: none;
+  transition: top 1s ease;
+}
+ 
+/*double row*/
+.navbar-doublerow > .navbar{
+  display: block; 
+  padding: 0px auto;
+  margin: 0px auto;
+  min-height: 25px;
+}
+.navbar-doublerow .nav{
+  padding: 0px auto;
+}
+.navbar-doublerow .dividline{
+  margin: 5px 100px;
+  padding-top: 1px;
+  background-color: inherit;
+}
+/*top nav*/
+.navbar-doublerow .navbar-top ul>li>a {
+  padding: 10px auto;
+  font-size: 12px;
+} 
+/*down nav*/
+.navbar-doublerow .navbar-down .navbar-brand {
+  padding: 0px auto;
+  float: left;
+  color: #fff;
+  font-size: 32px;
+}
+.navbar-doublerow .navbar-down ul>li>a{
+  font-size: 16px;
+  color: #fff;
+  transition: border-bottom .2s ease-in , transform .2s ease-in-out;
+}
+.navbar-doublerow .navbar-down ul>li>a:hover{
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+.navbar-doublerow .navbar-down .dropdown{
+    padding: 5px;
+    color: #000;
+}
+.navbar-doublerow .navbar-down .dropdown ul>li>a,
+.navbar-doublerow .navbar-down .dropdown ul>li>a:hover{
+  color: #000;
+  border-bottom: none;
+}
+.navbar-doublerow.navbar-trans.afterscroll {
+} 
+.navbar-doublerow.navbar-trans.afterscroll {
+   top:-50px;
+} 
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item {
+}
+/*text*/
+.text-white,.text-white-hover:hover{color:#fff!important}
+/*fontcolor*/
+.light-grey {color:#000!important;background-color:#E6E9ED!important}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+/*Header */
+.header{
+ 
+  height: 650px;
+   margin: 0 auto;
+  background: url("../imagem/exclusivabelezaeestetica27.jpg") no-repeat center;
+  background-size: cover;
+  
+  text-align: center;
+  padding-top: 80px;
+  display: block;
+  max-width: 100%;
+}
+
+
+/* Sobre */
+
+.sobre{
+  padding: 80px 10px 60px;
+  background-color: black;
+
+
+}
+
+.sobre p{
+  
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #e8d49b;  
+  text-align: center;
+  margin-bottom: 10px;
+
+
+}
+
+.sobre h2{
+  color: #e8d49b;
+}
+
+.sobre img{
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+
+
+/*Serviços*/
+
+.servicos{
+  padding: 80px 0;
+  background: #e8d49b;
+
+  
+}
+
+.produtos_lista li{
+  background: #e8d49b;
+  text-align: center;
+  list-style-type: none;
+  margin-right:  50px;
+  display: block;
+  margin-bottom: 50px;
+
+
+}
+
+.produtos_lista img{
+  margin: 0 auto;
+  width: 170px;
+  height: 120px;
+
+}
+
+
+
+
+.produtos_lista li p {
+  padding: 20px 10px 20px 20px;
+  margin: -30px -20px;
+  
+}
+
+.produtos_icone {
+  background: #e8d49b;
+  padding: 10px;
+  
+
+}
+
+.produtos_icone img{
+  border: 0px solid;
+}
+
+
+
+
+
+
+/*Galeria*/
+
+.galeria{
+  padding: 90px 0;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  background-color: black;
+  margin-top: -60px;   
+}
+
+.galeria h2{
+  color: #e8d49b;
+}
+
+.galeria .row img{
+  margin: 0 auto;
+  width: 180px;
+  height: 150px;  
+  margin-right:  60px;
+  display: block;
+  margin-bottom: 40px;
+  
+
+}
+
+
+/* Rodapé */
+
+ footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: white;
+  }
+
+
+footer img{
+  margin: 0 auto;
+  
+
+ }
+
+ .col-sm-6 img{  
+  
+  margin: 0 auto;
+  margin-left: 540px;
+ }
+
+
+
+  
+ footer  {
+  background: black;
+  margin-top: -40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+ }
+
+ footer a{
+  color: #e8d49b;
+ }
+
+ footer p{
+  color: #e8d49b;
+ }
+
+ /*Formulário */
+
+ .row .btn {
+  background: black;
+  color: white;
+  border-color: #e8d49b;
+  margin: 4px;
+ }
+
+.row .btn:hover {
+  color: #e8d49b;
+  
+}
+
+
+.contato {
+  padding:  100px 0;
+  background: #e6e6e6;
+  background-color: #e8d49b;
+  margin-top: -60px;
+}
+
+
